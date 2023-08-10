@@ -15,6 +15,6 @@ def create_packet_length_and_count_graphs(packets):
 
 def read_pcap_file():
     # Read the PCAP file
-    packets = rdpcap('../resources/try2.pcapng')
+    packets = rdpcap('../resources/audio1.pcapng')
     return create_packet_length_and_count_graphs(packets)
 
