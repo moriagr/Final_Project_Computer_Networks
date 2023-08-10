@@ -11,7 +11,7 @@ def present_single_bar_graph(timestamps, packet_lengths):
     plt.ylabel('Packet Length (MTU-sized chunks)')
     plt.title('Packet Length over Time (Bar Plot)')
     # Save the plot to the "res" directory
-    plt.savefig("../res/audio2.png")
+    plt.savefig("../res/whatsapp.png")
 
     plt.show()
 

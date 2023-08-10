@@ -5,7 +5,7 @@ To run this project you will need to have on your computer the following platfor
 * git
 * python3
 * scapy
-* 
+* stats: to install - pip install statsmodels
 To install this we will use the following link:
 https://scapy.readthedocs.io/en/latest/installation.html
 
