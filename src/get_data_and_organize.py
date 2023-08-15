@@ -1,3 +1,4 @@
+import numpy as np
 from scapy.all import *
 
 
@@ -9,6 +10,7 @@ def create_packet_length_and_count_graphs(packets):
         packet_length = len(packet_)
         timestamps.append(packet_.time)
         packet_lengths.append(packet_length)
+    timestamps = np.sort(timestamps)
     return {"timestamps": timestamps, "packet_lengths": packet_lengths, "packets": packets}
 
 
