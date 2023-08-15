@@ -10,8 +10,10 @@ To install this we will use the following link:
 https://scapy.readthedocs.io/en/latest/installation.html
 
 ## Running the project
-to run the project you will need to install the git itself using the command:
+to run the project you will need:
+* Install the git itself using the command:
 `git install https://github.com/moriagr/Final_Project_Computer_Networks.git`
-
-
-
+* Enter to command line
+* In the command line go to the folder you saved the project and into the project itself (Final_Project_Computer_Networks)
+* Enter to res folder with the command: `cd src`
+* Run the project with this line: `python3 main.py`
