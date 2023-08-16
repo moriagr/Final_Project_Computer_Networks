@@ -20,7 +20,7 @@ to run the project you will need the following:
 
 ## Project Results
 In this project, we recorded communication between 4 different IM groups in WhatsApp. Each group sends a different type of message: text, image, audio, and video.
-<br />In addition, we recorded a call in WhatsApp that includes all the messages type, and we also recorded in telegram the same call.
+<br />In addition, we recorded a call in WhatsApp that includes all the message types, and we also recorded the same conversations in telegram.
 <br />At first, we will represent the graphs of all the different groups by the size of the packets:
 <br />
 ### Shape of Traffic Graphs
@@ -96,8 +96,8 @@ After that, we created another recording in which we sent all types of messages 
 
 <br />
 <br />
-In the case where the attacked user is always active (at most) in one IM group, the attacker can look for patterns in movement that are unique to the group. For example, the time of day when the user is active, the frequency of sending messages, or the size of messages.
+In the case where the attacked user is always active (at most) in one IM group, the attacker can look for patterns in traffic that are unique to the group. For example, the time of day when the user is active, the frequency of sending messages, or the size of messages.
 <br />
-In the case where the attacked user may be active in several IM groups at the same time, the task becomes more complicated because then it is more difficult to distinguish between patterns. But you can try to check this according to the time when the messages are sent and adjust it to the group from which a message was sent at the same time.
+In the case where the attacked user may be active in several IM groups simultaneously, the task becomes more complex because then it is more difficult to distinguish between patterns. But you can try to check this according to the time when the messages are sent and look for them in the group from which a message was sent at the same time.
 
 
