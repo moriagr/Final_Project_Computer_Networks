@@ -26,37 +26,36 @@ In this project, we recorded communication between 4 different IM groups in What
 <br />At first, we will represent the graphs of all the different groups by the size of the packets:
 <br />
 ### Shape of Traffic Graphs
+<img width="317" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/bb649195-0293-4496-ab90-a1f569cd8dd1">
 
-<img width="317" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/d82adc99-3265-4924-a463-2e0d1d4ab1a1">
 <br />
 In the "text-Shape of traffic" graph, you can see, similar to what we saw in Table 2 in the article, that the size of a text message is small compared to the other types of messages as we will see later and the average size of a text message is about 250B.
 <br />
-<img width="319" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/0d537b2a-b1dc-46f5-b721-c9d363d406de">
+<img width="319" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/5407bf0d-9df4-430a-9200-1aa0ceaebf57">
+
 <br />
 In the "image-Shape of traffic" graph, you can see that some of the packets are larger than 1500B and some are smaller than 250B and in the range between 250B-1500B there are no packets at all.
 <br />
 In our estimation, images that are particularly small in size according to the given graph, are small because WhatsApp uses a method to prevent duplication, in which they send a reference or pointer to an image that has been sent several times in the same conversation.
 <br />
-<img width="321" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/bf3c71eb-b7ca-4d80-af2f-aa0e7c312144">
+<img width="321" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/33405c28-1208-4b74-b691-6a7ee4ee0a3e">
 <br />
 In the "audio-Shape of traffic" graph, you can see a wide range of sizes. This is according to the length of the recordings we sent (between 1 second and 3 minutes).
 <br />
-<img width="832" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/e126b223-b397-4c97-8991-73ae942c906a">
+<img width="832" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/9aeefb3e-f0d2-4929-9588-902c717a05f3">
 <br />
 In the "video-Shape of traffic" graph you can see, similar to what we saw in Table 2 in the article, that the size of a video message is large compared to the other types of messages and the average size for a video message is about 1500B, a figure that is different from what we saw in Table 2 in the article. 
 <br />In our opinion, this happens because of WhatsApp's optimization methods.
 
 ### PDF Graphs
-<img width="384" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/937e591f-e8ca-40a3-a9bb-5473e2620c2f">
+<img width="371" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/07a209e5-6b83-461f-aa70-d436e4d57979">
 <br />
-
-<img width="371" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/8984f690-70f5-45f1-aded-914a5bd00615">
+<img width="371" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/c7761160-4d35-42ed-b0ea-54d02d252a33">
 <br />
-
-<img width="368" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/a4430b0b-daef-4da2-8ebd-86860700cf88">
+<img width="384" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/aa29a60b-099f-4c08-b7ff-ebfefdbde97d">
 <br />
-
-<img width="371" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/1fb4a837-19ec-4ed0-889f-0a3e779a84a3">
+<img width="368" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/08fb6513-19f4-4393-ab79-1f47aa80e0cc">
+<br />
 <br />
 
 
@@ -67,21 +66,19 @@ In addition, since video messages are rarely sent compared to the rest, there ar
 *The inter-message delay time is measured in seconds.
 
 ### CCDF Graph
+<img width="468" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/73fcd942-c169-4add-afa1-ca158e24baa2">
 
-<img width="468" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/f9b85224-d681-44e7-ae59-534738735cbe">
 
 In this graph, we show the CCDF function.
 <br />
 This function shows the probability that a value will be greater than or equal to a certain value.
 
 ### Packets with VS without Filters Graph
-
-<img width="805" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/79010006-7bb3-4821-9e91-69a4c96ba8b7">
-
+<img width="805" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/c5c74d6e-042d-4022-81ad-845a8e259fbf">
 
 <br />
 
-<img width="777" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/e061d364-48e4-4b78-9c24-b5fd12b06895">
+<img width="777" alt="image" src="https://github.com/moriagr/Final_Project_Computer_Networks/assets/99357654/a16e94d1-6002-4fee-8c12-6d6e2c3a9102">
 
 <br />
 
@@ -103,3 +100,7 @@ In the case where the attacked user is always active (at most) in one IM group, 
 <br />
 In the case where the attacked user is active in several IM groups simultaneously, the task becomes more complex for the attacker, because it is more difficult to find patterns. <br />
 However, the attacker can try to cross reference between WhatsApp message and the packets that were captured by time and packet size to find patterns.
+<br />
+<br />
+
+*The changes in the last commit (uploading pictures again) are due to a known problem after changing from private to public. For more information: https://github.com/orgs/community/discussions/56049  
